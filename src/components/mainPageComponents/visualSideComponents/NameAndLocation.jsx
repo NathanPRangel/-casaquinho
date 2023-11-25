@@ -17,16 +17,11 @@ const CsNameAndLocation = styled.div`
     h1{
         font-family: Poppins;
         font-size: 7vw;
-        //font-style: normal;
         font-weight: 400;
-        //line-height: 48px; /* 32% */
-                
     }
     p{
         font-family: Poppins;
         font-size: 1vw;
-        //font-style: normal;
         font-weight: 400;
-        //line-height: 48px; /* 200% */
     }
 `
