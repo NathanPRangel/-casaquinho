@@ -8,7 +8,7 @@ import
 } from './'
 
 export function ResearchAndInformation(props) {
-    const {setSearchCity, temp, icon, description, scale, setScale}=props;
+    const {setSearchCity, temp, icon, description, scale, setScale, weatherMain, darkOptions}=props;
 
 
     return (
@@ -21,12 +21,16 @@ export function ResearchAndInformation(props) {
                 icon={icon}
                 description={description}
                 scale={scale}
+                weatherMain={weatherMain}
             />
             <CsLine/>
-            <Timestamp/>
+            <Timestamp
+                darkOptions={darkOptions}
+            />
             <ButtonsController
                 setScale={setScale}
                 //scale={scale}
+                darkOptions={darkOptions}
             />
 
         </CsResearchAndInformation>
@@ -41,7 +45,8 @@ const CsResearchAndInformation = styled.div`
 
 const CsLine = styled.div`
     width: 80%;
-    height: 1px;
+    height: 3px;
+    border-radius: 3px;
     background: #EDEDED;
     margin: 0 auto 0;
 `

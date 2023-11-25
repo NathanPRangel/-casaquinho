@@ -28,6 +28,7 @@ const GlobalStyle = createGlobalStyle`
     }
     body {
         line-height: 1;
+        font-family: 'Poppins';
     }
     ol, ul {
         list-style: none;
@@ -46,6 +47,7 @@ const GlobalStyle = createGlobalStyle`
     }
     *{
         box-sizing: border-box;
+        //color: white;
     }
 `;
 export default GlobalStyle;
