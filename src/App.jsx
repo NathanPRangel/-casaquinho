@@ -1,14 +1,17 @@
-import styled from "styled-components"
-import HomePage from "./pages/HomePage"
-import SeatsPage from "./pages/SeatsPage/SeatsPage"
-import SessionsPage from "./pages/SessionsPage/SessionsPage"
-import SuccessPage from "./pages/SuccessPage/SuccessPage"
-import { useState } from "react"
-import axios from 'axios';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import MainPage from './pages/Main-page'
 
+function App() {
 
-export default function App() {
-
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<MainPage/>}/>
+        </Routes>
+      </BrowserRouter>
+    </>
+  )
 }
 
-export default App;
+export default App
