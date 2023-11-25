@@ -7,7 +7,7 @@ dayjs.locale('pt-br')
 
 
 export  function NextDays({mapData, scale}){
-   //console.log(mapData.list)
+   
    const celList = []
    const fahList = []
    

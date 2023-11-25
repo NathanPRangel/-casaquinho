@@ -70,7 +70,6 @@ const CsInformationResearchSide = styled.div`
   }
 
   p{
-    //color: #222;
     font-family: Poppins;
     font-size: 2vw;
     font-style: normal;

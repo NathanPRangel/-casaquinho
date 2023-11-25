@@ -29,7 +29,7 @@ export function ResearchAndInformation(props) {
             />
             <ButtonsController
                 setScale={setScale}
-                //scale={scale}
+                
                 darkOptions={darkOptions}
             />
 
