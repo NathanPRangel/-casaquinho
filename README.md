@@ -1,30 +1,30 @@
-Desafio: Levo-Casaquinho
+Levo um casaquinho?
+Visão Geral
+Aplicação (front-end) web onde, a partir do nome de uma cidade, serão exibidas as informações do clima, tais como: temperatura atual, máxima, mínima e a previsão para os próximos dias.
 
-Deploy : levo-casaquinho-tan.vercel.app 
+Deploy
+Link: https://levo-casaquinho-tan.vercel.app/
 
-Uma das principais dores de quem vai dar um passeio ou pretende ir para algum destino por alguns dias é saber o que levar na mala.
-E uma das principais decisões é: levo um casaquinho?
-Objetivo:
+Principais Funcionalidades
+Monstrar temperatura atual, máxima, mínima e a previsão para os próximos dias de acordo com o nome da cidade digitada no campo de pesquisa. Por padrão, todas as unidades devem ser exibidas em °C (Celsius).
 
-O objetivo deste desafio é construir uma aplicação web que ajude o usuário a responder a essa pergunta.
-Requisitos:
+Para entidades foram usados duas rotas:
 
-A aplicação deve ser construída com React (com Vite), Styled Components e Recharts.
-A aplicação deve ser hospedada na nuvem, preferencialmente na Vercel.
-Para obter os dados do clima, a aplicação deve utilizar a API pública do OpenWeatherMap.
-As unidades de medida devem ser exibidas em Celsius por padrão.
-A aplicação deve manter a fidelidade do modelo fornecido para o Desktop.
-A cor do texto onde a temperatura é exibida deve ser orientada pela seguinte regra:
-Clear: “Céu aberto” (laranja)
-Clouds: “Nublado” (cinza)
-Rain: “Chovendo” (azul)
-Snow: “Nevando” (cinza claro)
-Thunderstorm: “Tempestade” (roxo)
-Drizzle: “Chuviscando” (azul claro)
-Mist: “Neblina” (cinza claro)
-A tonalidade exata de cada cor acima pode ser escolhida pelo desenvolvedor.
-Os códigos e ícones da API devem ser utilizados de acordo com estas regras.
-O usuário deve ser orientado a usar um casaquinho somente se a temperatura atual, mínima e/ou máxima forem inferiores à 17°C.
+Para obter os dois conjuntos de dados (temperatura atual e previsão dos próximos dias).
 
-Este desafio é uma ótima oportunidade para desenvolver suas habilidades em React, Styled Components, Recharts e API.
-Também é uma oportunidade de ajudar outras pessoas a planejar suas viagens com mais confiança.
+GET /weather 
+GET /forecast
+A cor do texto onde a temperatura é exibida é orientada pela seguinte regra…
+
+- Clear: “Céu aberto” (laranja)
+- Clouds: “Nublado” (cinza)
+- Rain: “Chovendo” (azul)
+- Snow: “Nevando” (cinza claro)
+- Thunderstorm: “Tempestade” (roxo)
+- Drizzle: “Chuviscando” (azul claro)
+- Mist: “Neblina” (cinza claro)
+
+Tecnologias Utilizadas
+Linguagem de Programação: JavaScript;
+Frameworks ou Bibliotecas: React, Styled Components e Recharts;
+Ferramenta Utilizada: Vercel, Git e GitHub, API OpenWeatherMap e Visual Estudio Code.
