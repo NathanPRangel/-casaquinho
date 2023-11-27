@@ -1,4 +1,6 @@
 Levo um casaquinho?
+
+
 Visão Geral
 Aplicação (front-end) web onde, a partir do nome de uma cidade, serão exibidas as informações do clima, tais como: temperatura atual, máxima, mínima e a previsão para os próximos dias.
 
