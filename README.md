@@ -1,7 +1,5 @@
 ## Levo um casaquinho?
 
-Aqui está uma versão melhorada do texto:
-
 Planejar uma viagem é uma tarefa emocionante, mas também pode ser estressante. Além de escolher o destino, o meio de transporte, o hotel e as atrações, é preciso pensar também na roupa que vai levar.
 
 Uma das principais dificuldades para quem vai viajar é saber o que vestir. Afinal, o clima pode variar muito de um lugar para outro, mesmo dentro do mesmo país.
