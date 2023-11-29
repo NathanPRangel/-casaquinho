@@ -1,32 +1,32 @@
-Levo um casaquinho?
+## Levo um casaquinho?
+
+Aqui está uma versão melhorada do texto:
+
+Planejar uma viagem é uma tarefa emocionante, mas também pode ser estressante. Além de escolher o destino, o meio de transporte, o hotel e as atrações, é preciso pensar também na roupa que vai levar.
+
+Uma das principais dificuldades para quem vai viajar é saber o que vestir. Afinal, o clima pode variar muito de um lugar para outro, mesmo dentro do mesmo país.
+
+Para ajudar a resolver esse problema, desenvolvi uma aplicação <strong>React+Vite</strong> que utiliza uma API de previsão do tempo para fornecer informações sobre o clima e a temperatura do destino escolhido.
+
+## Deploy
+
+###### <a href="https://levo-casaquinho-tan.vercel.app/">Deploy</a>
 
 
-Visão Geral
-Aplicação (front-end) web onde, a partir do nome de uma cidade, serão exibidas as informações do clima, tais como: temperatura atual, máxima, mínima e a previsão para os próximos dias.
+## Tecnologias e bibliotecas
 
-Deploy
-Link: https://levo-casaquinho-tan.vercel.app/
+- React
+- Vite (5.0.1)
+- Styled Components
+- Axios
+- Recharts
+- DayJs
 
-Principais Funcionalidades
-Monstrar temperatura atual, máxima, mínima e a previsão para os próximos dias de acordo com o nome da cidade digitada no campo de pesquisa. Por padrão, todas as unidades devem ser exibidas em °C (Celsius).
+## Como rodar
 
-Para entidades foram usados duas rotas:
-
-Para obter os dois conjuntos de dados (temperatura atual e previsão dos próximos dias).
-
-GET /weather 
-GET /forecast
-A cor do texto onde a temperatura é exibida é orientada pela seguinte regra…
-
-- Clear: “Céu aberto” (laranja)
-- Clouds: “Nublado” (cinza)
-- Rain: “Chovendo” (azul)
-- Snow: “Nevando” (cinza claro)
-- Thunderstorm: “Tempestade” (roxo)
-- Drizzle: “Chuviscando” (azul claro)
-- Mist: “Neblina” (cinza claro)
-
-Tecnologias Utilizadas
-Linguagem de Programação: JavaScript;
-Frameworks ou Bibliotecas: React, Styled Components e Recharts;
-Ferramenta Utilizada: Vercel, Git e GitHub, API OpenWeatherMap e Visual Estudio Code.
+1. Rode o comando `git clone https://github.com/NathanPRangel/Levo-Casaquinho`
+2. Rode o comando `cd Levo-Casaquinho`
+3. Rode o comando `npm i`
+4. Crie uma conta no site <a href="https://openweathermap.org/">OpenWeather</a> e salve sua `KEY`
+5. Crie e configure um aquivo `.env` com a variavel `VITE_API_KEY` com a obtida a partir do OpenWeather
+6. Rode o comando `npm run dev`
