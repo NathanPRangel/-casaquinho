@@ -45,7 +45,9 @@ export  function NextDays({mapData, scale}){
 
 const CsNextDays = styled.div`
     width: 60%;
-    height: 24.63%;
-    margin-top: 30px;
+    height: 24.63vh; 
+    margin-top: 2em; 
 
+    @media (max-width: 600px) { 
+    }
 `

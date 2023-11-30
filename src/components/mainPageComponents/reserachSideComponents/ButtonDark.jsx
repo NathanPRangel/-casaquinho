@@ -25,11 +25,14 @@ export function ButtonDark({darkOptions:{darkMode, setDarkMode}}){
     )
 }
 
-const CsButtonDark= styled.div`
+const CsButtonDark = styled.div`
     display: flex;
     align-items: center;
-        p{  
-            margin-left: 20px;
-            color: ${p=> p.$darkMode ? '#fff' : '#000' };
+    p{  
+        margin-left: 2em; 
+        color: ${p=> p.$darkMode ? '#fff' : '#000' };
+        @media (max-width: 600px) { 
+            margin-left: 1em;
         }
+    }
 `

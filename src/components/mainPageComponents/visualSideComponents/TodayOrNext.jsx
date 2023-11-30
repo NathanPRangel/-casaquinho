@@ -25,7 +25,7 @@ export function TodayOrNext({setToggleMap, toggleMap, darkOptions:{darkMode}}){
 
 const CsTodayOrNext = styled.div`
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 2em; // Torna a margem responsiva
     color: ${p=>p.$darkMode ? '#ffffff' : '#000000'};
 
     .option{
@@ -33,6 +33,10 @@ const CsTodayOrNext = styled.div`
         font-size: 3vw;
         margin-right: 5vw;
         cursor: pointer;
+        @media (max-width: 600px) { // Ajusta o tamanho da fonte e a margem para telas pequenas
+            font-size: 6vw;
+            margin-right: 10vw;
+        }
     }
     ${p=>p.$toggleMap}{
         color: #C8C8C8;

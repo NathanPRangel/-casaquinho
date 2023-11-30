@@ -19,13 +19,15 @@ const CsTitle = styled.div`
     align-items: center;
     margin-bottom: 40px;
     img{
-        width: 22%;
-        //height: 120px;
+        width: 100%; 
+        max-width: 200px; 
     }
     h1{
-    font-family: Poppins;
-    font-size: 3vw;
-    font-weight: 600;
-    //line-height: 48px;
+        font-family: Poppins;
+        font-size: 3vw; 
+        font-weight: 600;
+        @media (max-width: 600px) { 
+            font-size: 5vw;
+        }
     }
 `

@@ -45,9 +45,11 @@ const CsButtonsController = styled.div`
         align-items: center;
 
         p{  
-            margin-left: 20px;
+            margin-left: 2em; 
             color: ${p=> p.$darkMode ? '#fff' : '#000' };
+            @media (max-width: 600px) { 
+                margin-left: 1em;
+            }
         }
     }
-
 `

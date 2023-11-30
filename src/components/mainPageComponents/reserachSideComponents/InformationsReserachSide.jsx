@@ -58,7 +58,7 @@ const CsInformationResearchSide = styled.div`
   flex-direction: column;
   text-align: center;
   font-size: 7vw;
-  margin-bottom: 20px;
+  margin-bottom: 2em; 
   
   .molde{
     display: flex;
@@ -67,6 +67,9 @@ const CsInformationResearchSide = styled.div`
 
   img{
     width: 8vw;
+    @media (max-width: 600px) { 
+        width: 16vw;
+    }
   }
 
   p{
@@ -74,6 +77,9 @@ const CsInformationResearchSide = styled.div`
     font-size: 2vw;
     font-style: normal;
     font-weight: 400;
+    @media (max-width: 600px) { // Ajusta o tamanho da fonte para telas pequenas
+        font-size: 4vw;
+    }
   }
 
 `

@@ -67,7 +67,7 @@ const CsFeaturesWeather = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 25px;
+        padding-left: 2vw; 
 
         color: #fff;
         font-size: 3vw;
@@ -75,6 +75,13 @@ const CsFeaturesWeather = styled.div`
         p{
             color: #fff;
             font-size: 1.5vw;
+        }
+    }
+
+    @media (max-width: 600px) { 
+        .box{
+            width: 46vw;
+            height: 16vw;
         }
     }
 `

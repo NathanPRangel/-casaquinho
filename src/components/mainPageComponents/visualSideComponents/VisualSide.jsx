@@ -49,10 +49,7 @@ const CsVisualSide = styled.div`
     width: 70%;
     border: 1px;
     background-color: ${p => p.$darkMode ? '#000000' : '#EFEFEF'};
-    
-
-
-    padding: 15px 20px 5px;
+    padding: 1em 1.5em 0.5em; 
 
     .container{
         width: 100%;
@@ -67,5 +64,8 @@ const CsVisualSide = styled.div`
         }
 
     }
-    
+
+    @media (max-width: 600px) { 
+        width: 100%;
+    }
 `

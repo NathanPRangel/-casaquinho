@@ -18,10 +18,16 @@ const CsNameAndLocation = styled.div`
         font-family: Poppins;
         font-size: 7vw;
         font-weight: 400;
+        @media (max-width: 600px) { 
+            font-size: 14vw;
+        }
     }
     p{
         font-family: Poppins;
         font-size: 1vw;
         font-weight: 400;
+        @media (max-width: 600px) { 
+            font-size: 2vw;
+        }
     }
 `

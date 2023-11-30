@@ -42,10 +42,10 @@ const CsFormSearch = styled.form`
     background: #EDEDEF;
     box-shadow: 0px 24px 48px 0px rgba(49, 79, 124, 0.08);
 
-    margin-bottom: 40px;
+    margin-bottom: 2em; // Torna a margem responsiva
 
     display: flex;
-    padding-left: 20px;
+    padding-left: 2em; // Torna o padding responsivo
     
     .buttonForm{
         border: none;
@@ -63,4 +63,7 @@ const CsInput = styled.input`
     border: #EDEDEF;
     outline: 0;
 
+    @media (max-width: 600px) { 
+        width: 100%;
+    }
 `

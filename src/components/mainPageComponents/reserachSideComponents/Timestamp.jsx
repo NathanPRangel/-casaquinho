@@ -19,9 +19,9 @@ export  function Timestamp({darkOptions:{darkMode}}){
 
 const CsTimestamp = styled.div`
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2em; // Torna a margem responsiva
+    margin-bottom: 2em; // Torna a margem responsiva
     color: ${p => p.$darkMode ? '#ffffff' : '#000000' }
-
 `
+
 

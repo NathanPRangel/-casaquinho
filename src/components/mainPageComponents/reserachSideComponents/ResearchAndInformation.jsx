@@ -45,8 +45,11 @@ const CsResearchAndInformation = styled.div`
 
 const CsLine = styled.div`
     width: 80%;
-    height: 3px;
+    height: 0.2em; // Torna a altura responsiva
     border-radius: 3px;
     background: #EDEDED;
     margin: 0 auto 0;
+    @media (max-width: 600px) { // Ajusta a largura para telas pequenas
+        width: 90%;
+    }
 `

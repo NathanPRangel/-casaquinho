@@ -36,7 +36,7 @@ const CsReseachSide = styled.div`
     width: 30%;
     border: 1px;
     background-color: ${p => p.$darkMode ? '#000000' : '#FFFFFF'};
-    padding: 15px 20px 5px;
+    padding: 1em 1.5em 0.5em; 
 
     .container{
         width: 100%;
@@ -49,5 +49,9 @@ const CsReseachSide = styled.div`
             left: 0%;
             bottom: 0%;
         }
+    }
+
+    @media (max-width: 600px) { 
+        width: 100%;
     }
 `
