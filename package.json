@@ -1,5 +1,5 @@
 {
-  "name": "levo-um-casaquinho",
+  "name": "levo-casaquinho",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,15 +11,11 @@
   },
   "dependencies": {
     "axios": "^1.6.2",
-    "dayjs": "^1.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.19.0",
+    "react-router-dom": "^6.20.0",
     "react-switch": "^7.0.0",
-    "recharts": "^2.10.1",
-    "styled-components": "^6.1.1",
-    "sweetalert2": "^11.10.1",
-    "sweetalert2-react-content": "^5.0.7"
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
