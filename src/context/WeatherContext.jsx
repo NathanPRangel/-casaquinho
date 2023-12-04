@@ -10,7 +10,7 @@ export const WeatherProvider = ({ children }) => {
   const [city, setCity] = useState('Bauru');
 
   const getWeatherData = async () => {
-    const urlTodayAPI = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=pt_br&APPID=${import.meta.env.VITE_API_KEY}&units=metric`;
+    const urlTodayAPI = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=pt_br&APPID=${import.meta.env.VITE_KEY}&units=metric`;
     await axios.get(urlTodayAPI).then((response) => {
       setWeatherData(response.data)
     }).catch((error) => {
@@ -27,7 +27,7 @@ export const WeatherProvider = ({ children }) => {
     })
   }
   const getWeatherForecast = async () => {
-    const urlForecastAPI = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&lang=pt_br&cnt=40&APPID=${import.meta.env.VITE_API_KEY}&units=metric`;
+    const urlForecastAPI = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&lang=pt_br&cnt=40&APPID=${import.meta.env.VITE_KEY}&units=metric`;
     await axios.get(urlForecastAPI).then((response) => {
       const data = [];
       for (let i = 0; i < 40; i += 5) {
