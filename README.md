@@ -26,5 +26,5 @@ Para ajudar a resolver esse problema, desenvolvi uma aplicação <strong>React+V
 2. Rode o comando `cd Levo-Casaquinho`
 3. Rode o comando `npm i`
 4. Crie uma conta no site <a href="https://openweathermap.org/">OpenWeather</a> e salve sua `KEY`
-5. Crie e configure um aquivo `.env` com a variavel `VITE_API_KEY` com a obtida a partir do OpenWeather
+5. Crie e configure um aquivo `.env` com a variavel `VITE_KEY` com a obtida a partir do OpenWeather
 6. Rode o comando `npm run dev`
