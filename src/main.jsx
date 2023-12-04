@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import ResetStyle from './style/ResetStyle.js'
-import GlobalStyle from './style/GlobalStyle.js'
+import Reset from './assets/styles/Reset.js'
+import GlobalStyle from './assets/styles/GlobalStyle.js'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ResetStyle />
+    <Reset />
     <GlobalStyle />
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
 )

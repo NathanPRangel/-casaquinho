@@ -1,26 +1,12 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import styled from "styled-components";
-import Weather from "./pages/Weather";
-import { WeatherProvider } from "./contexts/WeatherContext";
+import { WeatherProvider } from "./context/WeatherContext"
+import HomePage from "./pages/HomePage"
 
-export default function App() {
-
+function App() {
   return (
-
-    <PagesContainer>
-      <BrowserRouter>
-        <WeatherProvider>
-            <Routes>
-              <Route path="/" element={<Weather />} />
-            </Routes>
-        </WeatherProvider>
-      </BrowserRouter>
-    </PagesContainer>
+    <WeatherProvider>
+      <HomePage />
+    </WeatherProvider>
   )
 }
 
-
-const PagesContainer = styled.main`
-  width: 100%;
-  max-height: 100vh;
-`
+export default App
